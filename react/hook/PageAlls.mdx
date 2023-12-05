@@ -1,0 +1,17 @@
+import { Meta, Canvas } from '@storybook/blocks';
+import * as UseRenderCountStories from './PageAll.stories.tsx';
+import StorySrc from './PageAll?raw';
+
+<Meta title="Hooks/useRenderCount" />
+
+# useRenderCount
+
+This is a test description
+<Canvas
+  of={UseRenderCountStories.Test}
+  source={{
+    code: StorySrc,
+    language: 'tsx',
+  }}
+  sourceState="shown"
+/>
